@@ -1,0 +1,58 @@
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: radial-gradient(circle at top, #12335d 0%, #081224 55%, #03050b 100%);
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.hud {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 20;
+  background: rgba(5, 8, 17, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 12px;
+  min-width: 250px;
+  color: #f0f4ff;
+}
+
+.hud h1 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.hud p {
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.hud button {
+  margin-top: 8px;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background: #00bcd4;
+  color: #04121c;
+  font-weight: 700;
+}
+
+.hud button:hover {
+  background: #19d7f0;
+}
+
+.help {
+  opacity: 0.85;
+}
